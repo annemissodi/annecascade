@@ -1,0 +1,97 @@
+body{
+	background-color: black;
+	color: white;
+	background-image: url(bg1.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+  .logo img{
+	width: 150px;
+	height: 150px;
+	margin-right: 35px;
+	margin-bottom: 22px;
+	padding-right: 10;
+	
+
+
+}
+.head {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	
+}
+
+.menu{
+	display: flex;
+	width: 25%;
+	justify-content: space-between;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+	padding-top: 0px;
+	margin-right: 10px;
+}
+.child{
+	cursor: pointer;
+}
+
+article{
+    width: 700px; 
+    margin: auto;
+    border: 0px solid black;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-right:380px;
+}
+.corps{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+h1{
+	font-size: 70px;
+	flex-wrap: nowrap;
+}
+.linke
+{
+	display: flex;
+	justify-content: space-between;
+	word-spacing: normal;
+	width: 40%;
+	margin-left: 200px;
+}
+.explore {
+	background: red;
+	border-radius: 20px;
+	border-width: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.child1{
+	display: flex;
+	justify-content: space-between;
+	height: 15%;
+	width: 12%;
+	padding: 0px;
+	margin-bottom: 0px;
+	background: red;
+	border-width: 50px;
+	cursor: pointer;
+
+}
+.child:hover{
+	display: flex;
+	justify-content: space-between;
+	height: 15%;
+	width: 16%;
+	padding: 0px;
+	margin-bottom: 0px;
+	background: red;
+	border-width: 50px;
+	cursor: pointer;
+}
